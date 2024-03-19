@@ -539,13 +539,13 @@ align-items: flex-start;
     flex-direction: row;
     background-color: rgb(155, 205, 185);
     list-style: none;
-    height: 80px;
-    width: auto;
-    
+    height: 55px;
+
 }
 .logo_menu{
-    width: 100px;
-    padding: 15px;
+    height: 30px;
+    width: 30px;
+    /* padding: 15px; */
     display: flex;
     justify-content: flex-end;
 }
@@ -555,8 +555,7 @@ align-items: flex-start;
 .nav_boton_menu{
     display: flex;
     align-items: center;
-
-    width: 60px;
+    width: 30px;
 }
 .li_boton_menu{
     display: flex;
@@ -565,7 +564,7 @@ align-items: flex-start;
 .btt_menu{
     background: none;
     border: none;
-    font-size: 30px;
+    font-size: 15px;
 }
 /* INICIO */
 .contenedor_inicio {
@@ -574,20 +573,20 @@ align-items: flex-start;
     align-items: center;
     background-image: url(inicio_imagen.png);
     width: auto;
-    height: auto;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .h1_inicio{
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 20px;
     color: #464159;
 }
 .p_inicio{
     display: flex;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     font-size: 16px;
     width: 60vw;
     text-align: center;
@@ -746,15 +745,15 @@ align-items: flex-start;
 }
 .botonbest{
     display: flex;
-    margin-top: 15spx;
+    margin-top: 21px;
     border: 10px;
     color: white;
     background-color: #464159;
-    padding: 6px 25px;
+    padding: 10px 25px;
     border-radius: 8px;
     font-style: none;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 9px;
 }
 .conte_img_best{
     display: flex;
@@ -775,45 +774,47 @@ align-items: flex-start;
 .conte_img_experience{
     display: flex;
     justify-content: center;
-    width: 200vw;
 } 
 .img_experience{
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 70%;
 }
 .conte_experience{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    height: 70vw;
 }
 .h1_experience{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 90px;
-    width: 30vw;
+    font-size: 30px;
+    width: 50vw;
+    margin-top: 50px;
     color: #464159;
 } 
 .p_experience{
     display: flex;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 40vw;
-    font-size: 30px;
+    font-size: 15px;
     color: #464159;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .botonexperience{
     display: flex;
-    margin-top: 70px;
+    margin-top: 21px;
     border: 10px;
     color: white;
     background-color: #464159;
-    padding: 15px 55px;
+    padding: 10px 25px;
     border-radius: 8px;
     font-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 9px;
 }
 /* pricing */
 .contenedor_pricing{
@@ -825,25 +826,23 @@ align-items: flex-start;
     align-items: center;
 }
 .pricing_h1{
-    font-size: 90px;
-    margin-top: 10vw;
+    font-size: 30px;
+    margin-top: 5vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #464159;
 }
 .pricing_p{
-    font-size: 40px;
+    font-size: 15px;
     color: #464159;
-    width: 60vw;
-    margin-top: 4vw;
+    width: 80vw;
+    margin-top: 5vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .conte_card{
     display: flex;
-    margin-top: 8vw;
-    padding: 3vw;
     justify-content: space-between;
-    margin-top: 85px;
-    padding: 20px;
+    margin-top: 28px;
+    padding: 10px;
     flex-direction: row;
     align-items: center;
 }
@@ -852,31 +851,33 @@ align-items: flex-start;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 346px;
+    width: 30%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .h2_pricing{
-    font-size: 35px;
+    font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #464159;
     margin-top: 2vw;
 }
 .img_pricing{
     margin-top: 2vw;
+    height: 45px;
 }
 .N_pricing{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #464159;
-    margin-top: 1vw;
-    font-size: 35px;
+    margin-top: 2vw;
+    font-size: 13px;
 }
 .p_pricing{
-    width: 15vw;
+    display: flex;
+    justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #464159;
-    margin-top: 1vw;
-    font-size: 20px;
+    margin-top: 2vw;
+    font-size: 10px;
 }
 .botoncard{
     margin-top: 1vw;
@@ -884,39 +885,38 @@ align-items: flex-start;
     border: 10px;
     color: white;
     background-color: #464159;
-    padding: 15px 55px;
+    padding: 8px 15px;
     border-radius: 8px;
     font-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 7px;
 }
 /* leona woods */
 .leona_woods{
-    display: flex;
-    flex-direction: column;
-height: 100vh;
-    background-image: url(fondo_leona_woods.png);
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url(fondo_leona_woods.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .contenedor_leona{
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 60vw;
 justify-content: center;
 align-items: flex-start;
 
 }
 .p_leona{
-    width: 45vw;
+    width: 50vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    margin-top: 1vw;
-    font-size: 30px;
+    font-size: 12px;
 }
 .h2_leona{
-    font-size: 35px;
+    font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin-top: 2vw;
@@ -928,15 +928,16 @@ align-items: flex-start;
     justify-content: center;
     align-items: center;
     background-image: url(fondo_dont_miss.png);
+    height: 100%;
 }
 .h1_update{ 
     display: flex;
     align-items: center;
-    font-size: 75px;
+    font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #464159;
     justify-content: center;
-    padding-top: 125px;
+    /* padding-top: 125px; */
 }
 .p_update{
     display: flex;
@@ -944,10 +945,10 @@ align-items: flex-start;
     text-align: center;
     align-items: center;
     width: 50%;
-    margin-top: 110px;
+    margin-top: 50px;
     height: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+    font-size: 15px;
     color: #464159;
 }
 .contenedor_email{
@@ -976,11 +977,11 @@ align-items: flex-start;
     color: #6b6b6b;
 }
 .btt_email{
-    font-size: 15px;
+    font-size: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     background-color: #464159;
-    padding: 10px 25px;
+    padding: 10px 10px;
 }
 /* FOOTER */
 .contenedor_footer{
@@ -997,11 +998,11 @@ align-items: flex-start;
     margin-bottom: auto;
 }
 .h1_footer{
-    font-size: 35px;
+    font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .p_footer{
-    font-size: 20px;
+    font-size: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 10px;
 }
@@ -1025,9 +1026,11 @@ align-items: flex-start;
     justify-content: flex-start;
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 10px;
 }
-
+.redes{
+    height: 16px;
+}
   }
